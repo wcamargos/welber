@@ -1,0 +1,83 @@
+header {
+    background: #BBBBBB;
+    padding: 20px 0;
+}
+.caixa{
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+
+}
+nav{
+    position: absolute;
+    top: 110px;
+    right: 0;
+}
+.produtos li{
+    display: inline-block;
+    text-align: center;
+    width: 33%;
+    vertical-align: top;
+    border-color: black;
+    border-width: 2px;
+    border-style: solid;
+    margin: 0 0;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border-radius: 15px;
+}
+.produtos li:hover{
+    border-color: olivedrab;
+}
+.produtos li:active{
+    border-color: yellowgreen;
+}
+.produtos li:hover h2 {
+    font-size: 30px;
+
+}
+
+nav a:hover{
+    color: olivedrab;
+    text-decoration: underline;
+}
+
+.produtos h2{
+    font-size: 30px;
+    font-weight: bold;
+}
+.produtopreco {
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+.produtodescricao{
+    font-size: 18px;
+}
+.produtos{
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px;
+}
+nav li{
+    display: inline;
+    margin: 0 0 0 15px;
+}
+nav a {
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;   
+}
+
+footer{
+    text-align: center;
+    background: url("bg.jpg");
+    padding: 40px 0;
+
+}
+.direitos {
+    color: whitesmoke;
+    
+}
