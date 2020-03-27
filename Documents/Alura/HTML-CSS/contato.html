@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br" >
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Contato - Barbearia Alura</title>
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="style-contato.css">
+    </head>
+    <body>
+        <header>
+            <div class="caixa">
+                <h1><img src="logo.png" alt="logo da barbearia"></h1>
+
+                <nav>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="produtos.html">Produtos</a></li>
+                        <li><a href="contato.html">Contato</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <main>
+            <form>
+                <label for="nomesobrenome"> Nome e sobrenome</label>
+                <input type="text" id="nomesobrenome" class="input-padrao" required >
+                
+                <label for="email"> Email</label>
+                <input type="email" id="email"class="input-padrao"required placeholder="seuemail@dominio.com.br">
+                
+                <label for="fone"> Telefone</label>
+                <input type="text" id="fone"class="input-padrao" required>
+                
+                <label for="msg">Mensagem</label>
+                <textarea cols="60" rows="10" id="msg"></textarea required>
+                <div>
+                    <p >Como prefere o nosso contato</p> 
+                    <label for="rdemail"> Email </label>
+                    <input type="radio" name="contato" value="rdemail">
+                    <label for="rdfone"> Telefone </label>
+                    <input type="radio" name="contato" value="rdfone">
+                    <label for="rdwatts"> Wattsapp </label>
+                    <input type="radio" name="contato" value="rdwatts" checked>           
+
+                   
+                </div>
+                <div><p>Qual horário preferido</p>
+                <select>
+                    <option>Manhã</option>
+                    <option>Tarde</option>
+                    <option>Noite</option>
+                </select>
+                </div>
+                <label><input type="checkbox" class="check">Gostaria de receber nossas ofertas?</label>
+                <input type="submit" value="Enviar" class="enviar">
+            </form>
+            <table>
+                <thead>
+                <tr></tr>
+                    <td>Dia</td>
+                    <td>Horário</td>
+                <tr></tr>
+                </thead>
+                <tbody>
+                    <td>Segunda</td>
+                    <td>Das 8 às 12hrs</td>
+                <tr></tr>
+                    <td>Quarta</td>
+                    <td>Das 9 às 13hrs</td>
+                </tbody>
+            </table>
+
+        </main>
+        <footer>
+    <img src="logo-branco.png" alt="logo da barbearia" >
+    <p class="direitos">&copy; Copyright</p>
+</footer>
+</body>
+</html>
